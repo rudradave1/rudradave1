@@ -2,7 +2,7 @@
 - 👀 I’m interested in android, and backend.
 - 🌱 I’m currently learning backend - JS, TypeScript and Java.
 - 💞️ I’m looking to collaborate on android open source projects.
-- 📫 How to reach me https://twitter.com/RudraKDave
+- 📫 How to reach me [@RudraKDave](https://twitter.com/RudraKDave)
 
 <!---
 rudradave1/rudradave1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
