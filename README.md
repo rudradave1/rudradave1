@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @rudradave1
-- 👀 I am android dev.
+- 👀 I am an android dev.
 - 🌱 I’m currently focusing on compose ui and android architecture.
 - 💞️ I’m looking to collaborate on android open source projects.
 - 📫 You can reach out to me on twitter [@RudraKDave](https://twitter.com/RudraKDave)
