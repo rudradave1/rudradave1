@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @rudradave1
-- 👀 I’m interested in android, and backend.
-- 🌱 I’m currently learning backend - JS, TypeScript and Java.
+- 👀 I am android dev.
+- 🌱 I’m currently focusing on compose ui and android architecture.
 - 💞️ I’m looking to collaborate on android open source projects.
 - 📫 How to reach me [@RudraKDave](https://twitter.com/RudraKDave)
 
