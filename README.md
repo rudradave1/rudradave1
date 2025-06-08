@@ -1,8 +1,6 @@
 - 👋 Hi, I’m @rudradave1
 - 👀 I am an android dev.
 - 🌱 I’m currently focusing on compose ui and android architecture.
-- 💞️ I’m looking to collaborate on android open source projects.
-- 📫 You can reach out to me on twitter [@RudraKDave](https://twitter.com/RudraKDave)
 
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=rudradave1&theme=radical)](https://github.com/rudradave1/github-profile-trophy)
