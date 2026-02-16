@@ -1,22 +1,44 @@
-👋 Hi, I’m Rudra Dave
+Rudra Dave
 
-I’m an Android developer focused on building reliable, production-quality apps using modern Android architecture.
+Senior Android Engineer specializing in Kotlin, Jetpack Compose, and scalable mobile architecture.
 
-I care about:
-- Offline-first design and data consistency
-- Jetpack Compose UI that is clean, accessible, and maintainable
-- Scalable app architecture (Room, WorkManager, background sync)
-- Writing code that is easy to reason about and evolve
+I build production-grade Android applications with a focus on reliability, offline-first data systems, and long-term maintainability.
 
-Currently:
-- Working primarily with Kotlin and Jetpack Compose
-- Deepening expertise in Android architecture and system design
-- Building portfolio projects that reflect real-world production challenges
+What I Focus On
 
-Projects:
-- **CareLog** — Offline-first Android app with Room as source of truth, background sync, and conflict resolution
-- **Aura RNG** — Minimalist game exploring randomness, progression, and player feedback loops
+Clean Architecture & modular multi-module codebases
 
-I enjoy building things that are simple on the surface, but thoughtfully engineered underneath.
+Jetpack Compose UI systems (Material 3)
 
-📫 Reach me via GitHub or LinkedIn.
+Room as single source of truth
+
+Background sync with WorkManager
+
+Coroutines + Flow state management
+
+Testable ViewModels and repository layers
+
+Production Experience
+
+Currently contributing to a fintech Android product where I work across:
+
+Feature development (payments, dashboards, onboarding flows)
+
+Architecture decisions and modularization
+
+Crash monitoring and performance optimization
+
+Release ownership and iterative product improvements
+
+Selected Projects
+Compose Production Template
+
+Production-ready Android template demonstrating Clean Architecture, Compose, Hilt, Room (offline-first), Retrofit, WorkManager sync, and ViewModel test coverage.
+
+CareLog
+
+Offline-first Android architecture showcase app with conflict-safe background synchronization and modular structure.
+
+I prefer building systems that are simple on the surface, but engineered thoughtfully underneath.
+
+📫 Connect via LinkedIn or email: rudramordan@gmail.com
