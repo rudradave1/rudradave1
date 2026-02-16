@@ -31,7 +31,7 @@ Currently contributing to a fintech Android product where I work across:
 
 ## 🚀 Selected Projects
 
-### Compose Production Template  
+### [Compose Production Template](https://github.com/rudradave1/compose-production-template)
 Production-ready Android template demonstrating:
 - Clean Architecture
 - Jetpack Compose
@@ -45,7 +45,7 @@ Production-ready Android template demonstrating:
 
 ---
 
-### CareLog  
+### [CareLog](https://github.com/rudradave1/CareLog)  
 Offline-first Android architecture showcase app with:
 - Room as source of truth
 - Conflict-safe background synchronization
@@ -60,6 +60,6 @@ I prefer building systems that are simple on the surface, but thoughtfully engin
 
 ## 📫 Connect
 
-- LinkedIn: https://linkedin.com/in/rudradave  
-- Email: rudramordan@gmail.com  
-- GitHub: https://github.com/rudradave1
+- LinkedIn: [https://linkedin.com/in/rudradave](https://linkedin.com/in/rudradave)
+- Email: rudramordan@gmail.com
+- GitHub: [https://github.com/rudradave1](https://github.com/rudradave1)
