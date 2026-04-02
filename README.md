@@ -31,6 +31,21 @@ Currently contributing to a fintech Android product where I work across:
 
 ## 🚀 Selected Projects
 
+### [KMP Fintech Starter](https://github.com/rudradave1/kmp-fintech-starter)
+
+Production-ready Kotlin Multiplatform architecture template for fintech applications:
+
+- Kotlin Multiplatform (shared business logic)
+- Offline-first architecture using SQLDelight
+- Ktor-based networking layer
+- Clean Architecture (Domain/Data/Presentation separation)
+- Compose UI (Android)
+- Dependency Injection with Koin
+- Scalable modular design 
+
+> Designed for building reliable fintech apps with strong data consistency, caching, and cross-platform scalability.
+
+---
 ### [Compose Production Template](https://github.com/rudradave1/compose-production-template)
 Production-ready Android template demonstrating:
 - Clean Architecture
