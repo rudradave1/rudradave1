@@ -10,22 +10,20 @@ I build production-grade Android applications with a strong focus on reliability
 
 - Clean Architecture & modular multi-module codebases  
 - Jetpack Compose UI systems (Material 3)  
-- Room as single source of truth  
-- Background sync with WorkManager  
-- Coroutines + Flow state management  
-- Testable ViewModels and repository layers  
+- Offline-first data systems
+- Coroutines + Flow state management
+- Background sync (WorkManager)  
+- Testable, maintainable code  
 
 ---
 
-## 💼 Production Experience
+## 💼 Experience Snapshot 
 
-Currently contributing to a fintech Android product where I work across:
-
-- Feature development (payments, dashboards, onboarding flows)
-- Architecture decisions and modularization
-- Crash monitoring and performance optimization
-- Release ownership and iterative product improvements
-- Remote-first async collaboration
+- 6+ years building Android applications
+- Worked on fintech product development (pre-release stage)
+- Involved in architecture decisions and modularization
+- Focused on performance, stability, and crash reduction
+- Experience working in remote, async teams
 
 ---
 
@@ -62,14 +60,15 @@ Production-ready Android template demonstrating:
 
 ### [CareLog](https://github.com/rudradave1/CareLog)  
 Offline-first Android architecture showcase app with:
-- Room as source of truth
-- Conflict-safe background synchronization
+- Local-first data handling
+- Conflict-safe synchronization
 - Modular feature structure
-- Clear domain/use case separation
+- Clear domain separation
 
 ---
-
-I prefer building systems that are simple on the surface, but thoughtfully engineered underneath.
+## ⚙️ Engineering Approach 
+I prefer building systems that are simple to use,
+but thoughtfully engineered to handle edge cases, failures, and scale. 
 
 ---
 
