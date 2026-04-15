@@ -1,79 +1,99 @@
 # Rudra Dave
 
-Senior Android Engineer specializing in **Kotlin**, **Jetpack Compose**, and scalable mobile architecture.
+Senior Android & Kotlin Multiplatform Engineer
 
-I build production-grade Android applications with a strong focus on reliability, offline-first data systems, and long-term maintainability.
-
----
-
-## 🛠 What I Focus On
-
-- Clean Architecture & modular multi-module codebases  
-- Jetpack Compose UI systems (Material 3)  
-- Offline-first data systems
-- Coroutines + Flow state management
-- Background sync (WorkManager)  
-- Testable, maintainable code  
+I build offline-first mobile systems and developer tooling focused on reliability, performance, and long-term scalability.
 
 ---
 
-## 💼 Experience Snapshot 
+## What I Focus On
 
-- 6+ years building Android applications
-- Worked on fintech product development (pre-release stage)
-- Involved in architecture decisions and modularization
-- Focused on performance, stability, and crash reduction
-- Experience working in remote, async teams
+- Offline-first mobile systems
+- Kotlin Multiplatform architecture
+- Scalable, modular Android codebases
+- Performance optimization & developer tooling
+- Background processing and sync systems (WorkManager)
 
 ---
 
-## 🚀 Selected Projects
+## What makes my work different
+
+- I prioritize data consistency and failure handling over happy-path implementations  
+- I design systems to work reliably under poor network conditions  
+- I focus on long-term maintainability instead of short-term feature delivery  
+- I prefer simple architectures that scale rather than complex over-engineered solutions  
+
+---
+
+## Experience Snapshot
+
+- 6+ years building Android applications  
+- Experience in fintech product development (pre-release stage)  
+- Worked on modularization and architecture decisions  
+- Focused on performance, stability, and crash reduction  
+- Experience working in remote, async teams  
+
+---
+
+## Selected Projects
 
 ### [KMP Fintech Starter](https://github.com/rudradave1/kmp-fintech-starter)
 
-Production-ready Kotlin Multiplatform architecture template for fintech applications:
+Production-grade Kotlin Multiplatform architecture designed for fintech use cases where data consistency and offline reliability are critical.
 
-- Kotlin Multiplatform (shared business logic)
-- Offline-first architecture using SQLDelight
-- Ktor-based networking layer
-- Clean Architecture (Domain/Data/Presentation separation)
-- Compose UI (Android)
-- Dependency Injection with Koin
-- Scalable modular design 
+- Shared business logic across platforms (KMP)  
+- SQLDelight as single source of truth  
+- Offline-first sync model  
+- Strict domain boundaries  
 
-> Designed for building reliable fintech apps with strong data consistency, caching, and cross-platform scalability.
+→ Demonstrates how real-world fintech systems handle unreliable networks without breaking user experience.
 
 ---
+
+### [droidperf](https://github.com/rudradave1/droidperf)
+
+CLI tool for auditing and fixing Android Gradle performance issues.
+
+- Detects build misconfigurations affecting build times  
+- Provides safe auto-fixes with diff preview and rollback  
+- Supports Android, Kotlin Multiplatform, and Flutter projects  
+
+→ Focused on improving developer productivity and CI performance.
+
+---
+
+### [CareLog](https://github.com/rudradave1/CareLog)
+
+Offline-first Android application demonstrating reliable sync and conflict resolution.
+
+- Local-first data handling  
+- Conflict-safe synchronization model  
+- Modular feature-based architecture  
+
+→ Built as an engineering showcase of resilient mobile data systems.
+
+---
+
 ### [Compose Production Template](https://github.com/rudradave1/compose-production-template)
-Production-ready Android template demonstrating:
-- Clean Architecture
-- Jetpack Compose
-- Hilt Dependency Injection
-- Room (offline-first data layer)
-- Retrofit networking
-- WorkManager background sync
-- ViewModel test coverage with coroutine test rules
 
-> Designed as a scalable foundation for real-world Android products.
+Scalable Android template for building real-world applications.
 
----
+- Clean Architecture  
+- Jetpack Compose UI  
+- Offline-first data layer  
+- Background sync using WorkManager  
 
-### [CareLog](https://github.com/rudradave1/CareLog)  
-Offline-first Android architecture showcase app with:
-- Local-first data handling
-- Conflict-safe synchronization
-- Modular feature structure
-- Clear domain separation
-
----
-## ⚙️ Engineering Approach 
-I prefer building systems that are simple to use,
-but thoughtfully engineered to handle edge cases, failures, and scale. 
+→ Designed as a starting point for production apps, not demos.
 
 ---
 
-## 📫 Connect
+## Engineering Approach
 
-- LinkedIn: [https://linkedin.com/in/rudradave](https://linkedin.com/in/rudradave)
-- Email: rudramordan@gmail.com
-- GitHub: [https://github.com/rudradave1](https://github.com/rudradave1)
+I build systems that are simple to use but designed to handle real-world complexity — including unreliable networks, background execution limits, and long-term maintainability.
+
+---
+
+## Connect
+
+- GitHub: https://github.com/rudradave1  
+- LinkedIn: https://www.linkedin.com/in/rudradave/
