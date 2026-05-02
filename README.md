@@ -1,109 +1,111 @@
 # Rudra Dave
 
 Senior Android & Kotlin Multiplatform Engineer  
-→ Building AI-powered product features and developer tooling
+→ Building AI-powered decision systems on top of reliable mobile architecture
 
 ---
 
-## What I Focus On
+## What I Work On
 
 - Offline-first mobile systems  
 - Kotlin Multiplatform architecture  
-- Scalable, modular Android codebases  
-- Performance optimization & developer tooling  
-- Background processing and sync systems (WorkManager)  
-- AI-powered features using LLM APIs  
+- AI-powered features using LLMs  
+- Intent → structured reasoning → decision pipelines  
+- Performance optimization and developer tooling  
 
 ---
 
-## What makes my work different
+## Core Focus
 
-- I prioritize data consistency and failure handling over happy-path implementations  
-- I design systems to work reliably under poor network conditions  
-- I focus on long-term maintainability instead of short-term feature delivery  
-- I prefer simple architectures that scale rather than complex over-engineered solutions  
+I build systems that translate **unstructured user intent into deterministic outcomes**.
+
+This involves:
+- extracting structured signals from natural language  
+- combining probabilistic AI with deterministic ranking logic  
+- designing systems that remain reliable under real-world constraints  
 
 ---
 
-## 📊 Daily Build Log (AI-powered)
+## 🚀 Featured Work
 
-I track what I build every day using an AI-powered system that summarizes my GitHub activity.
+### [SwiggyMind](https://github.com/rudradave1/SwiggyMind)
+
+AI-powered food ordering copilot that converts natural language cravings into ranked, actionable recommendations.
+
+- Intent parsing using LLMs  
+- Deterministic ranking layer for consistent outputs  
+- Designed for decision-making, not browsing  
+
+→ Demonstrates how AI can power real consumer workflows beyond chat interfaces.
+
+---
+
+### [AI Dev Journal](https://github.com/rudradave1/ai-dev-journal)
+
+AI system that converts raw GitHub activity into structured daily engineering summaries.
+
+- Extracts development signals from noisy commit history  
+- Applies LLM-based summarization with fallback strategies  
+- Maintains meaningful output under API constraints  
+
+→ Shows application of AI in developer productivity and system observability.
+
+---
+
+## 📊 Daily Build Log
+
+Automated log of what I build every day:
 
 👉 https://github.com/rudradave1/ai-dev-journal
 
 ---
 
-## 🚀 Selected Projects
-
-### [SwiggyMind](https://github.com/rudradave1/SwiggyMind)
-
-AI-powered food ordering copilot for Android.
-
-- Converts natural language cravings into ranked restaurant recommendations  
-- Uses LLMs to interpret intent and generate contextual suggestions  
-- Built with Kotlin Multiplatform + Jetpack Compose  
-- Focused on bridging user intent → actionable ordering decisions  
-
-→ Demonstrates applied AI in a real consumer use-case, not just experimentation.
-
----
+## Selected Systems Work
 
 ### [KMP Fintech Starter](https://github.com/rudradave1/kmp-fintech-starter)
 
-Production-grade Kotlin Multiplatform architecture designed for fintech use cases where data consistency and offline reliability are critical.
+Production-grade architecture for offline-first fintech applications.
 
-- Shared business logic across platforms (KMP)  
-- SQLDelight as single source of truth  
-- Offline-first sync model  
-- Strict domain boundaries  
-
-→ Demonstrates how real-world fintech systems handle unreliable networks without breaking user experience.
+- Shared business logic (KMP)  
+- SQLDelight as source of truth  
+- Resilient sync and consistency model  
 
 ---
 
 ### [droidperf](https://github.com/rudradave1/droidperf)
 
-CLI tool to audit and fix Android Gradle performance issues.
+CLI tool for improving Android build performance.
 
-- Detects build misconfigurations affecting build times  
-- Provides safe auto-fixes with diff preview and rollback  
-- Supports Android, Kotlin Multiplatform, and Flutter projects  
-
-→ Focused on improving developer productivity and CI performance.
+- Detects and fixes Gradle inefficiencies  
+- Focused on CI reliability and developer productivity  
 
 ---
 
 ### [CareLog](https://github.com/rudradave1/CareLog)
 
-Offline-first Android application demonstrating reliable sync and conflict resolution.
-
-- Local-first data handling  
-- Conflict-safe synchronization model  
-- Modular feature-based architecture  
-
-→ Built as an engineering showcase of resilient mobile data systems.
-
----
-
-## Experience Snapshot
-
-- 6+ years building Android applications  
-- Experience in fintech product development (pre-release stage)  
-- Worked on modularization and architecture decisions  
-- Focused on performance, stability, and crash reduction  
-- Experience working in remote, async teams  
+Offline-first Android system demonstrating conflict-safe synchronization.
 
 ---
 
 ## Engineering Approach
 
-I build systems that are simple to use but designed to handle real-world complexity — including unreliable networks, background execution limits, and long-term maintainability.
+I design systems that are:
+
+- reliable under failure conditions  
+- simple in structure but scalable in behavior  
+- built for long-term maintainability  
+
+I prioritize:
+- correctness over shortcuts  
+- deterministic systems over unpredictable behavior  
+- real-world constraints over ideal conditions  
 
 ---
 
 ## Open to
 
-Remote AI-first product engineering roles (Android / Kotlin / AI integrations)
+Remote product engineering roles  
+(Android / Kotlin / Kotlin Multiplatform) with exposure to AI-driven systems
 
 ---
 
