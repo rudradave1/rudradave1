@@ -1,114 +1,94 @@
 # Rudra Dave
 
 Senior Android & Kotlin Multiplatform Engineer  
-→ Building AI-powered decision systems on top of reliable mobile architecture
+Building systems where AI intent meets deterministic mobile architecture.
 
 ---
 
-## What I Work On
+## What I Build
 
-- Offline-first mobile systems  
-- Kotlin Multiplatform architecture  
-- AI-powered features using LLMs  
-- Intent → structured reasoning → decision pipelines  
-- Performance optimization and developer tooling  
+I work at the intersection of **reliable mobile infrastructure** and **AI-powered decision logic** — systems that take unstructured user intent and turn it into consistent, real-world outcomes.
 
----
-
-## Core Focus
-
-I build systems that translate **unstructured user intent into deterministic outcomes**.
-
-This involves:
-- extracting structured signals from natural language  
-- combining probabilistic AI with deterministic ranking logic  
-- designing systems that remain reliable under real-world constraints  
+Core areas:
+- Kotlin Multiplatform architecture (Android + iOS shared logic)
+- Offline-first data systems with resilient sync
+- LLM integration with deterministic ranking layers
+- Android build performance and developer tooling
+- Fintech infrastructure: transactions, cards, exchange, sync
 
 ---
 
-## 🚀 Featured Work
+## Featured Work
 
-### [SwiggyMind](https://github.com/rudradave1/SwiggyMind)
+### [SwiggyMind](https://github.com/rudradave1/SwiggyMind) — AI Food Ordering Copilot
+Describe your craving in plain language. Get ranked, actionable recommendations.  
+Built on Swiggy Builders Club using KMP + Compose + OpenRouter.
 
-AI-powered food ordering copilot that converts natural language cravings into ranked, actionable recommendations.
-
-- Intent parsing using LLMs  
-- Deterministic ranking layer for consistent outputs  
+- Natural language → structured intent parsing via LLM  
+- Deterministic ranking layer for consistent, non-random outputs  
 - Designed for decision-making, not browsing  
 
-→ Demonstrates how AI can power real consumer workflows beyond chat interfaces.
+→ Shows how LLMs can power real consumer workflows when paired with structured reasoning.
 
 ---
 
-### [AI Dev Journal](https://github.com/rudradave1/ai-dev-journal)
+### [droidperf](https://github.com/rudradave1/droidperf) — Android Gradle Auditor
+`npx droidperf audit` — detects and auto-fixes Android Gradle performance bottlenecks.
 
-AI system that converts raw GitHub activity into structured daily engineering summaries.
-
-- Extracts development signals from noisy commit history  
-- Applies LLM-based summarization with fallback strategies  
-- Maintains meaningful output under API constraints  
-
-→ Shows application of AI in developer productivity and system observability.
+- Supports Android, KMP, and Flutter project shapes  
+- Writes only to `gradle.properties`; creates timestamped backups before any mutation  
+- CI-ready with `--json` output and `--dry-run` diff preview  
 
 ---
 
-## 📊 Daily Build Log
+### [KMP Fintech Starter](https://github.com/rudradave1/kmp-fintech-starter) — Production KMP Template
+Offline-first fintech architecture for Android + iOS from a single shared codebase.
 
-Automated log of what I build every day:
+- Shared domain, repository, and presentation logic via KMP  
+- SQLDelight as local source of truth; Ktor for remote sync  
+- Koin DI, Clean Architecture, CI pipeline included  
 
-👉 https://github.com/rudradave1/ai-dev-journal
-
----
-
-## Selected Systems Work
-
-### [KMP Fintech Starter](https://github.com/rudradave1/kmp-fintech-starter)
-
-Production-grade architecture for offline-first fintech applications.
-
-- Shared business logic (KMP)  
-- SQLDelight as source of truth  
-- Resilient sync and consistency model  
+→ Production-grade starting point, not a demo — built to be forked and extended.
 
 ---
 
-### [droidperf](https://github.com/rudradave1/droidperf)
+## Other Systems
 
-CLI tool for improving Android build performance.
-
-- Detects and fixes Gradle inefficiencies  
-- Focused on CI reliability and developer productivity  
-
----
-
-### [CareLog](https://github.com/rudradave1/CareLog)
-
-Offline-first Android system demonstrating conflict-safe synchronization.
+| Project | What it is |
+|---|---|
+| [VellumLedger](https://github.com/rudradave1/VellumLedger) | Offline-first personal finance app. KMP + SQLDelight + Compose Multiplatform. |
+| [DefineEasy](https://github.com/rudradave1/DefineEasy) | Dictionary + spaced repetition app. Live on Play Store. SM-2 scheduler, encrypted Room DB. |
+| [GeoRanker](https://github.com/rudradave1/GeoRanker) | Location-based place ranking. KMP + SQLDelight + Google Maps + explainable ranking engine. |
+| [QuikScore](https://github.com/rudradave1/QuikScore) | Floating live-score overlay. System overlay windows + background UI + real-time data. |
+| [ParticleLab](https://github.com/rudradave1/ParticleLab) | Real-time physics simulation in Compose. Custom rendering, performance-focused architecture. |
+| [smart-dnd-scheduler](https://github.com/rudradave1/smart-dnd-scheduler) | DND automation with AlarmManager, DataStore, and system-level permission handling. |
+| [compose-production-template](https://github.com/rudradave1/compose-production-template) | Scalable Android template: Clean Architecture, Hilt, Room, Retrofit, WorkManager. |
 
 ---
 
 ## Engineering Approach
 
-I design systems that are:
+I design for **correctness first, then ergonomics**.
 
-- reliable under failure conditions  
-- simple in structure but scalable in behavior  
-- built for long-term maintainability  
-
-I prioritize:
-- correctness over shortcuts  
-- deterministic systems over unpredictable behavior  
-- real-world constraints over ideal conditions  
+That means:
+- Deterministic systems over probabilistic ones where predictability matters  
+- Local-first architecture so the app works regardless of network state  
+- Failure paths treated as first-class concerns, not edge cases  
+- Clear module boundaries so logic stays testable without platform dependencies  
 
 ---
 
 ## Open to
 
-Remote product engineering roles  
-(Android / Kotlin / Kotlin Multiplatform) with exposure to AI-driven systems
+**Remote Android / KMP engineering roles** — product teams building fintech, developer tools, or AI-integrated mobile experiences.  
+India · Remote.
 
 ---
 
-## Connect
-- GitHub: https://github.com/rudradave1  
-- LinkedIn: https://www.linkedin.com/in/rudradave/
+## Stack
+
+`Kotlin` · `Jetpack Compose` · `KMP` · `SQLDelight` · `Ktor` · `Room` · `WorkManager` · `Hilt` · `Koin` · `Coroutines/Flow` · `gRPC/Protobuf` · `Clean Architecture`
+
+---
+
+[GitHub](https://github.com/rudradave1) · [LinkedIn](https://www.linkedin.com/in/rudradave1) · [npm: droidperf](https://www.npmjs.com/package/droidperf)
