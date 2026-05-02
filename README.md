@@ -1,18 +1,18 @@
 # Rudra Dave
 
-Senior Android & Kotlin Multiplatform Engineer
-
-I build offline-first mobile systems and developer tooling focused on reliability, performance, and long-term scalability.
+Senior Android & Kotlin Multiplatform Engineer  
+→ Now building AI-powered product features and developer tooling
 
 ---
 
 ## What I Focus On
 
-- Offline-first mobile systems
-- Kotlin Multiplatform architecture
-- Scalable, modular Android codebases
-- Performance optimization & developer tooling
-- Background processing and sync systems (WorkManager)
+- Offline-first mobile systems  
+- Kotlin Multiplatform architecture  
+- Scalable, modular Android codebases  
+- Performance optimization & developer tooling  
+- Background processing and sync systems (WorkManager)  
+- AI-powered features using LLM APIs  
 
 ---
 
@@ -22,6 +22,14 @@ I build offline-first mobile systems and developer tooling focused on reliabilit
 - I design systems to work reliably under poor network conditions  
 - I focus on long-term maintainability instead of short-term feature delivery  
 - I prefer simple architectures that scale rather than complex over-engineered solutions  
+
+---
+
+## 📊 Daily Build Log (AI-powered)
+
+I track what I build every day using an AI-powered system that summarizes my GitHub activity.
+
+👉 https://github.com/rudradave1/ai-dev-journal
 
 ---
 
@@ -52,7 +60,7 @@ Production-grade Kotlin Multiplatform architecture designed for fintech use case
 
 ### [droidperf](https://github.com/rudradave1/droidperf)
 
-CLI tool for auditing and fixing Android Gradle performance issues.
+CLI tool to audit and fix Android Gradle performance issues.
 
 - Detects build misconfigurations affecting build times  
 - Provides safe auto-fixes with diff preview and rollback  
@@ -89,11 +97,10 @@ Scalable Android template for building real-world applications.
 
 ## Engineering Approach
 
-I build systems that are simple to use but designed to handle real-world complexity — including unreliable networks, background execution limits, and long-term maintainability.
+I build systems that are simple to use but designed to handle real-world complexity. including unreliable networks, background execution limits, and long-term maintainability.
 
 ---
 
 ## Connect
-
 - GitHub: https://github.com/rudradave1  
 - LinkedIn: https://www.linkedin.com/in/rudradave/
