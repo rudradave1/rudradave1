@@ -1,7 +1,7 @@
 # Rudra Dave
 
 Senior Android & Kotlin Multiplatform Engineer  
-→ Now building AI-powered product features and developer tooling
+→ Building AI-powered product features and developer tooling
 
 ---
 
@@ -33,17 +33,20 @@ I track what I build every day using an AI-powered system that summarizes my Git
 
 ---
 
-## Experience Snapshot
+## 🚀 Selected Projects
 
-- 6+ years building Android applications  
-- Experience in fintech product development (pre-release stage)  
-- Worked on modularization and architecture decisions  
-- Focused on performance, stability, and crash reduction  
-- Experience working in remote, async teams  
+### [SwiggyMind](https://github.com/rudradave1/SwiggyMind)
+
+AI-powered food ordering copilot for Android.
+
+- Converts natural language cravings into ranked restaurant recommendations  
+- Uses LLMs to interpret intent and generate contextual suggestions  
+- Built with Kotlin Multiplatform + Jetpack Compose  
+- Focused on bridging user intent → actionable ordering decisions  
+
+→ Demonstrates applied AI in a real consumer use-case, not just experimentation.
 
 ---
-
-## Selected Projects
 
 ### [KMP Fintech Starter](https://github.com/rudradave1/kmp-fintech-starter)
 
@@ -82,22 +85,25 @@ Offline-first Android application demonstrating reliable sync and conflict resol
 
 ---
 
-### [Compose Production Template](https://github.com/rudradave1/compose-production-template)
+## Experience Snapshot
 
-Scalable Android template for building real-world applications.
-
-- Clean Architecture  
-- Jetpack Compose UI  
-- Offline-first data layer  
-- Background sync using WorkManager  
-
-→ Designed as a starting point for production apps, not demos.
+- 6+ years building Android applications  
+- Experience in fintech product development (pre-release stage)  
+- Worked on modularization and architecture decisions  
+- Focused on performance, stability, and crash reduction  
+- Experience working in remote, async teams  
 
 ---
 
 ## Engineering Approach
 
-I build systems that are simple to use but designed to handle real-world complexity. including unreliable networks, background execution limits, and long-term maintainability.
+I build systems that are simple to use but designed to handle real-world complexity — including unreliable networks, background execution limits, and long-term maintainability.
+
+---
+
+## Open to
+
+Remote AI-first product engineering roles (Android / Kotlin / AI integrations)
 
 ---
 
