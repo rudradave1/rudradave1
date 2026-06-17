@@ -4,6 +4,7 @@ Senior Android & Kotlin Multiplatform Engineer
 Building systems where AI intent meets deterministic mobile architecture.
 
 ---
+[![Rudra Dave profile views](https://u8views.com/api/v1/github/profiles/35660907/views/day-week-month-total-count.svg)](https://u8views.com/github/rudradave1)
 
 ## What I Build
 
