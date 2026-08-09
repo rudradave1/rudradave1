@@ -1,113 +1,340 @@
+<a id="readme-top"></a>
+
+<div align="center">
+
 # Rudra Dave
 
-Senior Android & Kotlin Multiplatform Engineer  
-Building systems where AI intent meets deterministic mobile architecture.
+### Senior Android & Kotlin Multiplatform Engineer
 
----
-[![Rudra Dave profile views](https://u8views.com/api/v1/github/profiles/35660907/views/day-week-month-total-count.svg)](https://u8views.com/github/rudradave1)
+**I build, ship, and maintain mobile products.**
 
-## What I Build
+Android · Kotlin · Jetpack Compose · Kotlin Multiplatform · AI
 
-I work at the intersection of **reliable mobile infrastructure** and **AI-powered decision logic** - systems that take unstructured user intent and turn it into consistent, real-world outcomes.
+<br />
 
-Core areas:
-- Kotlin Multiplatform architecture (Android + iOS shared logic)
-- Offline-first data systems with resilient sync
-- LLM integration with deterministic ranking layers
-- Full-stack Kotlin - Ktor backends, PostgreSQL, deployed and live
-- Android build performance and developer tooling
-- Fintech infrastructure: transactions, cards, exchange, sync
+[![GitHub Followers](https://img.shields.io/github/followers/rudradave1?style=for-the-badge\&logo=github\&label=FOLLOWERS)](https://github.com/rudradave1?tab=followers)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/rudradave/)
+[![Play Store](https://img.shields.io/badge/PLAY%20STORE-414141?style=for-the-badge\&logo=google-play\&logoColor=white)](https://play.google.com/store/apps/dev?id=5957333055367817229)
 
----
+</div>
 
-## Featured Work
-
-### [SwiggyMind](https://github.com/rudradave1/SwiggyMind) - AI Food Ordering Copilot
-Describe your craving in plain language. Get ranked, actionable recommendations.  
-Built on Swiggy Builders Club using KMP + Compose + OpenRouter.
-
-- Natural language → structured intent parsing via LLM
-- Deterministic ranking layer for consistent, non-random outputs
-- Mind Cache for stateful session memory across conversation turns
-- Designed for decision-making, not browsing
-
-→ Shows how LLMs can power real consumer workflows when paired with structured reasoning.
+<br />
 
 ---
 
-### [droidperf](https://github.com/rudradave1/droidperf) - Android Gradle Auditor
-`npx droidperf audit` - detects and auto-fixes Android Gradle performance bottlenecks.
+## Table of Contents
 
-- Supports Android, KMP, and Flutter project shapes
-- Writes only to `gradle.properties`; creates timestamped backups before any mutation
-- CI-ready with `--json` output and `--dry-run` diff preview
+* [About Me](#about-me)
+* [Products I've Shipped](#products-ive-shipped)
+* [Selected Work](#selected-work)
+* [What I Work With](#what-i-work-with)
+* [How I Build](#how-i-build)
+* [Contact](#contact)
 
 ---
 
-### [VellumLedger](https://github.com/rudradave1/VellumLedger) - Offline-First Finance + Live Backend
-KMP expense tracker with a real deployed sync backend.
+## About Me
 
-- Offline-first: every write lands in SQLDelight first, network is never a dependency
-- SyncQueue pattern: `PENDING → SYNCING → SYNCED | FAILED` lifecycle per transaction
-- Live Ktor + PostgreSQL backend on Railway with JWT auth and timestamp conflict resolution
-- Biometric lock + SQLCipher database encryption
+I'm a **Senior Android & Kotlin Multiplatform Engineer** with 6+ years of software engineering experience.
 
-→ Complete end-to-end system in Kotlin. Backend: [vellum-ledger-api](https://github.com/rudradave1/vellum-ledger-api)
+For more than four years, I worked as the primary Android engineer at a fintech startup, taking mobile products from architecture and implementation through releases and production.
+
+I enjoy the entire product lifecycle:
+
+**Idea → Architecture → Implementation → Polish → Release → Production**
+
+My work spans native Android, Kotlin Multiplatform, Compose, backend integration, local data, background processing, AI features, developer tooling, and product experimentation.
+
+I also build and publish my own products outside of work.
+
+---
+
+## Products I've Shipped
+
+Three products currently live on Google Play, each exploring a different problem.
+
+<table>
+<tr>
+
+<td width="33%" align="center" valign="top">
+
+### Sotto
+
+**Private Voice Journal**
+
+Capture thoughts by simply speaking.
+
+KMP · Compose · AI · Privacy
+
+<br />
+
+<a href="https://play.google.com/store/apps/details?id=com.sotto.memories">
+
+<img src="https://img.shields.io/badge/GOOGLE%20PLAY-414141?style=for-the-badge&logo=google-play&logoColor=white">
+
+</a>
+
+<br />
+<br />
+
+</a>
+
+</td>
+
+<td width="33%" align="center" valign="top">
+
+### Aura RNG
+
+**RNG Game**
+
+A native Android game built around rolling, collecting, crafting, and progression.
+
+Kotlin · Compose · DataStore
+
+<br />
+
+<a href="https://play.google.com/store/apps/details?id=com.rudra.aurarng">
+
+<img src="https://img.shields.io/badge/GOOGLE%20PLAY-414141?style=for-the-badge&logo=google-play&logoColor=white">
+
+</a>
+
+<br />
+<br />
+
+</a>
+
+</td>
+
+<td width="33%" align="center" valign="top">
+
+### Vellum Ledger
+
+**Personal Finance**
+
+A Kotlin Multiplatform finance application focused on structured personal money management.
+
+KMP · Compose · SQLDelight
+
+<br />
+
+<a href="https://play.google.com/store/apps/details?id=com.vellum.ledger">
+
+<img src="https://img.shields.io/badge/GOOGLE%20PLAY-414141?style=for-the-badge&logo=google-play&logoColor=white">
+
+</a>
+
+<br />
+<br />
+
+</a>
+
+</td>
+
+</tr>
+</table>
+
+<p align="center">
+  <sub>Built independently to explore different product, engineering, and architecture problems.</sub>
+</p>
+
+---
+
+## Selected Work
+
+### [droidperf](https://github.com/rudradave1/droidperf)
+
+**Android build performance CLI**
+
+[npm](https://www.npmjs.com/package/droidperf)
+
+A developer tool that audits Android projects for Gradle performance problems and automatically fixes safe configuration issues.
 
 ```bash
-curl https://vellum-ledger-api-production.up.railway.app/health
+npx droidperf audit
 ```
 
----
+```text
+Scanning your Android project...
 
-### [KMP Fintech Starter](https://github.com/rudradave1/kmp-fintech-starter) - Production KMP Template
-Offline-first fintech architecture for Android + iOS from a single shared codebase.
+Found 7 issues costing you ~3.0 minutes per build:
 
-- Shared domain, repository, and presentation logic via KMP
-- SQLDelight as local source of truth; Ktor for remote sync
-- Koin DI, Clean Architecture, CI pipeline included
+[CRITICAL] Configuration cache disabled
+[CRITICAL] Build cache disabled
+[HIGH]     Parallel execution disabled
+[HIGH]     Kotlin incremental disabled
+[MEDIUM]   JVM heap too low
 
-→ Production-grade starting point, not a demo - built to be forked and extended.
+Estimated waste: 3.0 min/build
+```
 
----
-
-## Other Systems
-
-| Project | What it is |
-|---|---|
-| [vellum-ledger-api](https://github.com/rudradave1/vellum-ledger-api) | Ktor sync backend for VellumLedger. PostgreSQL + Exposed ORM + JWT. Deployed on Railway. |
-| [GeoRanker](https://github.com/rudradave1/GeoRanker) | KMP place ranking app. Custom scoring engine with explainable recommendations. SQLDelight + Google Maps. |
-| [DefineEasy](https://github.com/rudradave1/DefineEasy) | Minimal dictionary app with Compose UI and clean state management. |
-| [QuikScore](https://github.com/rudradave1/QuikScore) | Floating live-score overlay. System overlay windows + background UI + real-time data. |
-| [ParticleLab](https://github.com/rudradave1/ParticleLab) | Real-time physics simulation in Compose. Custom rendering, performance-focused architecture. |
-| [smart-dnd-scheduler](https://github.com/rudradave1/smart-dnd-scheduler) | DND automation with AlarmManager, DataStore, and system-level permission handling. |
-| [compose-production-template](https://github.com/rudradave1/compose-production-template) | Scalable Android template: Clean Architecture, Hilt, Room, Retrofit, WorkManager. |
+**Kotlin · Gradle · Node.js · CLI**
 
 ---
 
-## Engineering Approach
+### [SwiggyMind](https://github.com/rudradave1/SwiggyMind)
 
-I design for **correctness first, then ergonomics**.
+**AI food discovery copilot**
 
-That means:
-- Deterministic systems over probabilistic ones where predictability matters
-- Local-first architecture so the app works regardless of network state
-- Failure paths treated as first-class concerns, not edge cases
-- Clear module boundaries so logic stays testable without platform dependencies
+An AI-powered food recommendation experiment built for Swiggy Builders Club.
 
----
+Describe what you want in natural language. The application interprets the request, ranks options, and explains the reasoning behind the recommendations.
 
-## Open to
-
-**Remote Android / KMP engineering roles** - product teams building fintech, developer tools, or AI-integrated mobile experiences.  
-Bhavnagar, India · Remote only.
+**Kotlin Multiplatform · Compose · OpenRouter**
 
 ---
 
-## Stack
+### [kmp-fintech-starter](https://github.com/rudradave1/kmp-fintech-starter)
 
-`Kotlin` · `Jetpack Compose` · `KMP` · `Ktor` · `SQLDelight` · `PostgreSQL` · `Room` · `WorkManager` · `Hilt` · `Koin` · `Coroutines/Flow` · `gRPC/Protobuf` · `Clean Architecture`
+**Kotlin Multiplatform fintech foundation**
+
+A production-oriented KMP starter covering the pieces needed for a serious application.
+
+`SQLDelight` `Ktor` `Koin` `Clean Architecture` `CI`
 
 ---
 
-[GitHub](https://github.com/rudradave1) · [LinkedIn](https://www.linkedin.com/in/rudradave1) · [npm: droidperf](https://www.npmjs.com/package/droidperf)
+### [compose-production-template](https://github.com/rudradave1/compose-production-template)
+
+**Production Android foundation**
+
+A practical Android template covering:
+
+`Jetpack Compose` · `Clean Architecture` · `Hilt` · `Room` · `Retrofit` · `WorkManager` · `CI`
+
+---
+
+### [GeoRanker](https://github.com/rudradave1/GeoRanker)
+
+**Explainable recommendation engine**
+
+A KMP place discovery experiment focused on ranking and recommendation systems.
+
+The interesting part is not just producing a ranking, but making the ranking explainable.
+
+---
+
+## What I Work With
+
+<div align="center">
+
+### Android
+
+[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge\&logo=kotlin\&logoColor=white)](https://kotlinlang.org/)
+[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge\&logo=android\&logoColor=white)](https://developer.android.com/)
+[![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge\&logo=jetpackcompose\&logoColor=white)](https://developer.android.com/develop/ui/compose)
+[![Kotlin Multiplatform](https://img.shields.io/badge/Kotlin%20Multiplatform-7F52FF?style=for-the-badge\&logo=kotlin\&logoColor=white)](https://kotlinlang.org/docs/multiplatform.html)
+
+### Architecture & Infrastructure
+
+[![Ktor](https://img.shields.io/badge/Ktor-087CFA?style=for-the-badge\&logo=ktor\&logoColor=white)](https://ktor.io/)
+[![SQLDelight](https://img.shields.io/badge/SQLDelight-4EAA25?style=for-the-badge\&logo=sqlite\&logoColor=white)](https://sqldelight.github.io/sqldelight/)
+[![Hilt](https://img.shields.io/badge/Hilt-009639?style=for-the-badge\&logo=dagger\&logoColor=white)](https://dagger.dev/hilt/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge\&logo=postgresql\&logoColor=white)](https://www.postgresql.org/)
+[![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge\&logo=gradle\&logoColor=white)](https://gradle.org/)
+
+### Product & AI
+
+[![OpenRouter](https://img.shields.io/badge/OpenRouter-111111?style=for-the-badge)](https://openrouter.ai/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge\&logo=github-actions\&logoColor=white)](https://github.com/features/actions)
+
+</div>
+
+---
+
+## How I Build
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### Product First
+
+I like building things people can actually use, not just architecture samples.
+
+That means thinking about the product, UX, edge cases, distribution, analytics, and what happens after release.
+
+</td>
+
+<td width="50%" valign="top">
+
+### Engineering Depth
+
+Architecture should make the product easier to change.
+
+I care about clear boundaries, maintainable modules, predictable state, and systems that behave correctly outside the happy path.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+### Ship It
+
+A project sitting on a laptop is an experiment.
+
+A product in the Play Store is something real.
+
+I enjoy taking projects all the way to release.
+
+</td>
+
+<td width="50%" valign="top">
+
+### Keep Learning
+
+My projects are deliberately varied.
+
+Games, finance, voice, AI, developer tooling, and KMP give me different engineering problems to solve.
+
+</td>
+
+</tr>
+</table>
+
+--- 
+
+## Currently
+
+<div align="center">
+
+### Building at the intersection of
+
+**Android · Kotlin · KMP · AI · Product Engineering**
+
+I'm interested in building products where strong software engineering and new technology create something genuinely useful.
+
+</div>
+
+---
+
+## Contact
+
+<div align="center">
+
+### Rudra Dave
+
+<a href="https://www.linkedin.com/in/rudradave/">
+<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
+
+<a href="https://github.com/rudradave1">
+<img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+<a href="mailto:rudramordan@gmail.com">
+<img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
+
+<br />
+<br />
+
+**Open to remote Android, Kotlin, and KMP engineering opportunities.**
+
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
