@@ -12,9 +12,9 @@ Android · Kotlin · Jetpack Compose · Kotlin Multiplatform · AI
 
 <br />
 
-[![GitHub Followers](https://img.shields.io/github/followers/rudradave1?style=for-the-badge\&logo=github\&label=FOLLOWERS)](https://github.com/rudradave1?tab=followers)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/rudradave/)
-[![Play Store](https://img.shields.io/badge/PLAY%20STORE-414141?style=for-the-badge\&logo=google-play\&logoColor=white)](https://play.google.com/store/apps/dev?id=5957333055367817229)
+[![GitHub Followers](https://img.shields.io/github/followers/rudradave1?style=for-the-badge&logo=github&label=FOLLOWERS)](https://github.com/rudradave1?tab=followers)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rudradave/)
+[![Play Store](https://img.shields.io/badge/PLAY%20STORE-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/dev?id=5957333055367817229)
 
 </div>
 
@@ -26,7 +26,7 @@ Android · Kotlin · Jetpack Compose · Kotlin Multiplatform · AI
 
 * [About Me](#about-me)
 * [Products I've Shipped](#products-ive-shipped)
-* [Selected Work](#selected-work)
+* [Selected Work & Tooling](#selected-work--tooling)
 * [What I Work With](#what-i-work-with)
 * [How I Build](#how-i-build)
 * [Contact](#contact)
@@ -37,21 +37,19 @@ Android · Kotlin · Jetpack Compose · Kotlin Multiplatform · AI
 
 I'm a **Senior Android & Kotlin Multiplatform Engineer** with 6+ years of software engineering experience.
 
-For more than four years, I worked as the primary Android engineer at a fintech startup, taking mobile products from architecture and implementation through releases and production.
+For four years, I worked as the primary Android engineer at a fintech startup, taking mobile products from architecture and implementation through releases and production.
 
-I enjoy the entire product lifecycle:
+I focus on the entire product lifecycle:
 
 **Idea → Architecture → Implementation → Polish → Release → Production**
 
-My work spans native Android, Kotlin Multiplatform, Compose, backend integration, local data, background processing, AI features, developer tooling, and product experimentation.
-
-I also build and publish my own products outside of work.
+My work spans native Android, Kotlin Multiplatform, Jetpack Compose, local-first data architecture, background processing, developer tooling, and production apps on Google Play.
 
 ---
 
 ## Products I've Shipped
 
-Three products currently live on Google Play, each exploring a different problem.
+Three independent products currently live on Google Play, each built to solve a distinct product and technical challenge.
 
 <table>
 <tr>
@@ -69,14 +67,7 @@ KMP · Compose · AI · Privacy
 <br />
 
 <a href="https://play.google.com/store/apps/details?id=com.sotto.memories">
-
-<img src="https://img.shields.io/badge/GOOGLE%20PLAY-414141?style=for-the-badge&logo=google-play&logoColor=white">
-
-</a>
-
-<br />
-<br />
-
+<img src="https://img.shields.io/badge/GOOGLE%20PLAY-414141?style=for-the-badge&logo=google-play&logoColor=white" alt="Sotto on Google Play">
 </a>
 
 </td>
@@ -87,21 +78,14 @@ KMP · Compose · AI · Privacy
 
 **RNG Game**
 
-A native Android game built around rolling, collecting, crafting, and progression.
+A native Android game built around rolling, collecting, crafting, and progression. Zero production crashes.
 
 Kotlin · Compose · DataStore
 
 <br />
 
 <a href="https://play.google.com/store/apps/details?id=com.rudra.aurarng">
-
-<img src="https://img.shields.io/badge/GOOGLE%20PLAY-414141?style=for-the-badge&logo=google-play&logoColor=white">
-
-</a>
-
-<br />
-<br />
-
+<img src="https://img.shields.io/badge/GOOGLE%20PLAY-414141?style=for-the-badge&logo=google-play&logoColor=white" alt="Aura RNG on Google Play">
 </a>
 
 </td>
@@ -112,21 +96,14 @@ Kotlin · Compose · DataStore
 
 **Personal Finance**
 
-A Kotlin Multiplatform finance application focused on structured personal money management.
+A Kotlin Multiplatform finance application focused on structured personal money management and queued sync.
 
 KMP · Compose · SQLDelight
 
 <br />
 
 <a href="https://play.google.com/store/apps/details?id=com.vellum.ledger">
-
-<img src="https://img.shields.io/badge/GOOGLE%20PLAY-414141?style=for-the-badge&logo=google-play&logoColor=white">
-
-</a>
-
-<br />
-<br />
-
+<img src="https://img.shields.io/badge/GOOGLE%20PLAY-414141?style=for-the-badge&logo=google-play&logoColor=white" alt="Vellum Ledger on Google Play">
 </a>
 
 </td>
@@ -140,15 +117,28 @@ KMP · Compose · SQLDelight
 
 ---
 
-## Selected Work
+## Selected Work & Tooling
+
+### [proguard-lint](https://github.com/rudradave1/proguard-lint)
+
+**High-performance R8 / ProGuard verification plugin**
+
+An open-source Gradle plugin (AGP 8.0+) that audits ProGuard/R8 obfuscation and shrinking quality directly from `mapping.txt` and `seeds.txt` artifacts.
+
+* Built with 27 automated integration tests.
+* Runs deterministically in under 250ms during release build checks.
+
+**Kotlin · Gradle Plugin API · AGP 8.0+ · Bytecode & R8 Analysis**
+
+---
 
 ### [droidperf](https://github.com/rudradave1/droidperf)
 
 **Android build performance CLI**
 
-[npm](https://www.npmjs.com/package/droidperf)
+[npm package](https://www.npmjs.com/package/droidperf)
 
-A developer tool that audits Android projects for Gradle performance problems and automatically fixes safe configuration issues.
+A developer tool that audits Android projects for Gradle performance bottlenecks and automatically applies safe configuration fixes.
 
 ```bash
 npx droidperf audit
@@ -172,25 +162,13 @@ Estimated waste: 3.0 min/build
 
 ---
 
-### [SwiggyMind](https://github.com/rudradave1/SwiggyMind)
-
-**AI food discovery copilot**
-
-An AI-powered food recommendation experiment built for Swiggy Builders Club.
-
-Describe what you want in natural language. The application interprets the request, ranks options, and explains the reasoning behind the recommendations.
-
-**Kotlin Multiplatform · Compose · OpenRouter**
-
----
-
 ### [kmp-fintech-starter](https://github.com/rudradave1/kmp-fintech-starter)
 
 **Kotlin Multiplatform fintech foundation**
 
-A production-oriented KMP starter covering the pieces needed for a serious application.
+A production-oriented KMP starter covering the architectural foundations needed for complex mobile systems: offline-first synchronization, secure data storage, and strict layer decoupling.
 
-`SQLDelight` `Ktor` `Koin` `Clean Architecture` `CI`
+`SQLDelight` · `Ktor` · `Koin` · `Clean Architecture` · `CI`
 
 ---
 
@@ -198,9 +176,19 @@ A production-oriented KMP starter covering the pieces needed for a serious appli
 
 **Production Android foundation**
 
-A practical Android template covering:
+A modular Android template built around production best practices:
 
 `Jetpack Compose` · `Clean Architecture` · `Hilt` · `Room` · `Retrofit` · `WorkManager` · `CI`
+
+---
+
+### [SwiggyMind](https://github.com/rudradave1/SwiggyMind)
+
+**AI food discovery copilot**
+
+An AI-powered food recommendation experiment built for Swiggy Builders Club. Interprets natural language constraints, ranks options, and returns explainable recommendations.
+
+**Kotlin Multiplatform · Compose · OpenRouter**
 
 ---
 
@@ -208,9 +196,9 @@ A practical Android template covering:
 
 **Explainable recommendation engine**
 
-A KMP place discovery experiment focused on ranking and recommendation systems.
+A KMP place discovery application focused on transparent ranking algorithms and explainable recommendation mechanics.
 
-The interesting part is not just producing a ranking, but making the ranking explainable.
+**Kotlin Multiplatform · Compose Multiplatform · Ranking Systems**
 
 ---
 
@@ -218,25 +206,25 @@ The interesting part is not just producing a ranking, but making the ranking exp
 
 <div align="center">
 
-### Android
+### Android & Multiplatform
 
-[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge\&logo=kotlin\&logoColor=white)](https://kotlinlang.org/)
-[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge\&logo=android\&logoColor=white)](https://developer.android.com/)
-[![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge\&logo=jetpackcompose\&logoColor=white)](https://developer.android.com/develop/ui/compose)
-[![Kotlin Multiplatform](https://img.shields.io/badge/Kotlin%20Multiplatform-7F52FF?style=for-the-badge\&logo=kotlin\&logoColor=white)](https://kotlinlang.org/docs/multiplatform.html)
+[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
+[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com/)
+[![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)](https://developer.android.com/develop/ui/compose)
+[![Kotlin Multiplatform](https://img.shields.io/badge/Kotlin%20Multiplatform-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/docs/multiplatform.html)
 
 ### Architecture & Infrastructure
 
-[![Ktor](https://img.shields.io/badge/Ktor-087CFA?style=for-the-badge\&logo=ktor\&logoColor=white)](https://ktor.io/)
-[![SQLDelight](https://img.shields.io/badge/SQLDelight-4EAA25?style=for-the-badge\&logo=sqlite\&logoColor=white)](https://sqldelight.github.io/sqldelight/)
-[![Hilt](https://img.shields.io/badge/Hilt-009639?style=for-the-badge\&logo=dagger\&logoColor=white)](https://dagger.dev/hilt/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge\&logo=postgresql\&logoColor=white)](https://www.postgresql.org/)
-[![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge\&logo=gradle\&logoColor=white)](https://gradle.org/)
+[![Ktor](https://img.shields.io/badge/Ktor-087CFA?style=for-the-badge&logo=ktor&logoColor=white)](https://ktor.io/)
+[![SQLDelight](https://img.shields.io/badge/SQLDelight-4EAA25?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqldelight.github.io/sqldelight/)
+[![Hilt](https://img.shields.io/badge/Hilt-009639?style=for-the-badge&logo=dagger&logoColor=white)](https://dagger.dev/hilt/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)](https://gradle.org/)
 
-### Product & AI
+### Product & Tooling
 
 [![OpenRouter](https://img.shields.io/badge/OpenRouter-111111?style=for-the-badge)](https://openrouter.ai/)
-[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge\&logo=github-actions\&logoColor=white)](https://github.com/features/actions)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
 
 </div>
 
@@ -251,9 +239,9 @@ The interesting part is not just producing a ranking, but making the ranking exp
 
 ### Product First
 
-I like building things people can actually use, not just architecture samples.
+I build applications people can actually use, not just architecture demos.
 
-That means thinking about the product, UX, edge cases, distribution, analytics, and what happens after release.
+That means thinking through the user experience, offline resilience, edge cases, distribution, analytics, and what happens post-release.
 
 </td>
 
@@ -261,9 +249,9 @@ That means thinking about the product, UX, edge cases, distribution, analytics, 
 
 ### Engineering Depth
 
-Architecture should make the product easier to change.
+Architecture should make a codebase easier to evolve and scale.
 
-I care about clear boundaries, maintainable modules, predictable state, and systems that behave correctly outside the happy path.
+I care about decoupled boundaries, maintainable multi-module setups, predictable state flow, and systems that behave correctly when the network fails.
 
 </td>
 
@@ -275,28 +263,28 @@ I care about clear boundaries, maintainable modules, predictable state, and syst
 
 ### Ship It
 
-A project sitting on a laptop is an experiment.
+An idea on a local machine remains an experiment.
 
-A product in the Play Store is something real.
+A product live on Google Play is real.
 
-I enjoy taking projects all the way to release.
+I take ownership of projects all the way to release builds and live distribution.
 
 </td>
 
 <td width="50%" valign="top">
 
-### Keep Learning
+### Continuous Exploration
 
-My projects are deliberately varied.
+My independent projects explore different problem spaces.
 
-Games, finance, voice, AI, developer tooling, and KMP give me different engineering problems to solve.
+Games, finance, voice, AI, developer tooling, and KMP each provide distinct architectural challenges that sharpen my day-to-day engineering.
 
 </td>
 
 </tr>
 </table>
 
---- 
+---
 
 ## Currently
 
@@ -306,7 +294,7 @@ Games, finance, voice, AI, developer tooling, and KMP give me different engineer
 
 **Android · Kotlin · KMP · AI · Product Engineering**
 
-I'm interested in building products where strong software engineering and new technology create something genuinely useful.
+I'm interested in building products where strong software engineering and modern technology create something genuinely useful.
 
 </div>
 
@@ -319,15 +307,15 @@ I'm interested in building products where strong software engineering and new te
 ### Rudra Dave
 
 <a href="https://www.linkedin.com/in/rudradave/">
-<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
 
 <a href="https://github.com/rudradave1">
-<img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
 </a>
 
 <a href="mailto:rudramordan@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+<img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
 
 <br />
